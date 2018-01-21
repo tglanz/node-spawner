@@ -1,0 +1,31 @@
+{
+    "processes": {
+        "api": {
+            "workingDir": "../some-api",
+            "startCommand": "npm start",
+            "stdout": true,
+            "stderr": true
+        },
+
+        "service-instance-1": {
+            "workingDir": "../some-service",
+            "startCommand": "npm start",
+            "stdout": true,
+            "stderr": true
+        },
+
+        "service-instance-2": {
+            "workingDir": "../some-service",
+            "startCommand": "npm start",
+            "stdout": true,
+            "stderr": true
+        },
+
+        "cache": {
+            "workingDir": "../some-cache",
+            "startCommand": "npm start",
+            "stdout": true,
+            "stderr": false
+        }
+    }
+}
