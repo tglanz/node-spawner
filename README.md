@@ -2,7 +2,7 @@
 Spawns multiple, configured processes
 
 ## Run
-```npm install```
+```npm install```   
 ```npm start```
 
 ## Next
